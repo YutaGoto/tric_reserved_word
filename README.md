@@ -1,5 +1,7 @@
 # tric_reserved_word
 
+[![Build Status](https://travis-ci.org/YutaGoto/tric_reserved_word.svg?branch=master)](https://travis-ci.org/YutaGoto/tric_reserved_word)
+
 このリポジトリは rubykaigi 2018 の TRICK コンテストの優勝作品である "Most reserved" の `end` を一つ減らしたいと思っているリポジトリです。
 
 # Inspired
