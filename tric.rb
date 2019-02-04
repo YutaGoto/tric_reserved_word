@@ -1,45 +1,14 @@
-unless
-  def class
-    super
-    true or return defined? next
-    break while
-      begin
-        __LINE__
-        undef
-        do end
-      rescue then
-        retry else
-        undef module
-        nil
-      ensure
-        until false
-          case if yield
-            self and redo
-            elsif not __FILE__
-            alias END in
-        end
-        when __ENCODING__
-      end
-  end
-end
-alias BEGIN
-for end
-
-p "---"
-
-alias    BEGIN    for      unless   def      class
-super    true     or       return   defined? next
-break    while    begin    undef    do       end
-rescue   then     retry    else     undef    module
-nil      ensure   case     if       yield    __LINE__
-self     and      redo     elsif    not      __FILE__
-alias    END      in       end      when     __ENCODING__
-end      until    false    end
-
-p "---"
+# BEGIN    class    ensure   nil      self     when
+# END      def      false    not      super    while
+# alias    defined? for      or       then     yield
+# and      do       if       redo     true     __LINE__
+# begin    else     in       rescue   undef    __FILE__
+# break    elsif    module   retry    unless   __ENCODING__
+# case     end      next     return   until
 
 def class
   self
+  super
   yield
   if false and retry
     undef module
@@ -57,6 +26,8 @@ def class
     end
   end
   begin
+    undef for unless nil
+    undef do
   rescue
   ensure
   end
